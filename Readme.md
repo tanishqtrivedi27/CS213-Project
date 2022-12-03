@@ -1,4 +1,4 @@
-#CS213 Project : E-commerce website
+# CS213 Project : E-commerce website
 
 ## To run the project follow the steps given below:
 
