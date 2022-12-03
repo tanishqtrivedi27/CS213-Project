@@ -1,0 +1,84 @@
+body {
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table, td, tr, th {
+    border: 1px solid black
+}
+
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
+table{
+    width: 100%;
+}
+
+.customize {
+    font-size: 1.1vw;
+    max-height: 6vw; 
+    min-height: 5vw;
+    max-width: 20vw;
+    min-width: 18vw;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    text-align: left;
+    vertical-align: top;
+    justify-self: left;
+    justify-items: left;
+    justify-content: left;
+    border-color: rgba(173,173,173,255);
+}
+
+td {
+    font-size: 1.1vw;
+}
+
+.about{
+    width: 20vw;
+    height: 7vw;
+}    
+
+h2 {
+    margin-top: 3vw;
+}
+
+.item {
+    margin-top: -10vw;
+    font-size: 1.1vw;
+    width: 10%;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(177,151,89,255);
+    height: 4vw;
+    background-image:linear-gradient(rgba(242,226,184,255), rgba(237,191,61,255)) ;
+    cursor: pointer;
+}
+
+.item-table-delete {
+    font-size: 1.1vw;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(177,151,89,255);
+    background-image:linear-gradient(rgba(242,226,184,255), rgba(237,191,61,255)) ;
+    cursor: pointer;
+    width: 80%;
+    height: 4vw;
+}
+
+.item-table-edit {
+    font-size: 1.1vw;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(177,151,89,255);
+    background-image:linear-gradient(rgba(242,226,184,255), rgba(237,191,61,255)) ;
+    cursor: pointer;
+    width: 80%;
+    height: 4vw;
+}

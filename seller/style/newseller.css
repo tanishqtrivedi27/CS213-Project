@@ -1,0 +1,240 @@
+body {
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+} 
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(19, 1fr) ;
+    align-items: center;
+    justify-items: center;
+    column-gap: 0px;
+    padding: 0 1.2vw 0 ;
+}
+
+.hello-create {
+    display: grid;
+    grid-template-columns: 20vw;
+    grid-template-rows: 0.8vw;
+    justify-items: left;
+}
+
+.hello-account {
+    display: grid;
+    grid-template-columns: 11vw 8vw;
+    grid-template-rows: 0.8vw;
+    justify-items: left;
+}
+
+.hello2 {
+    margin-top: 3vw;
+    justify-content: left;
+    justify-self: left;
+    font-size: 1vw;
+    cursor: default;
+}
+
+a:link, a:visited, a:hover, a:active{
+    color: blue;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+form {
+    display: block;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgba(229,229,229,255) ;
+    width: 20%; 
+    height: 43vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    margin-top: 4%;
+    margin-bottom: 2%;
+    font-size: 2vw;
+}
+
+.hello1 {
+    justify-content: left;
+    justify-self: left;
+    font-size: 2.5vw;
+}
+
+.item-name-label {
+    margin-top: 1vw;
+    justify-content: left;
+    justify-self: left;
+    grid-column: span 2;
+    font-size: 1.3vw;
+}
+
+.item-name-input {
+    margin-top: -3vw;
+    justify-content: left;
+    justify-self: left;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgba(173,173,173,255);
+    grid-column: span 2;
+}
+
+.item-email-label {
+    margin-top: -2vw;
+    justify-content: left;
+    justify-self: left;
+    grid-column: span 2;
+    font-size: 1.3vw;
+}
+
+.item-email-input {
+    margin-top: -3vw;
+    justify-content: left;
+    justify-self: left;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgba(173,173,173,255);
+    grid-column: span 2;
+}
+
+.item-pass-label {
+    margin-top: -2vw;
+    justify-content: left;
+    justify-self: left;
+    grid-column: span 2;
+    font-size: 1.3vw;
+}
+
+.item-pass-input {
+    margin-top: -3.5vw;
+    justify-content: left;
+    justify-self: left;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgba(173,173,173,255);
+    grid-column: span 2;
+}
+
+/* .customize {
+    margin-left: 0;
+} */
+
+.item-address-label {
+    margin-top: -3vw;
+    justify-content: left;
+    justify-self: left;
+    grid-column: span 2;
+    font-size: 1.3vw;
+}
+
+.item-address-input {
+    margin-top: -3vw;
+    justify-content: left;
+    justify-self: left;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgba(173,173,173,255);
+    grid-column: span 2;
+}
+
+.item-city-label {
+    margin-top: -3vw;
+    justify-content: left;
+    justify-self: left;
+    grid-column: span 2;
+    font-size: 1.3vw;
+}
+
+.item-city-input {
+    margin-top: -3vw;
+    justify-content: left;
+    justify-self: left;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgba(173,173,173,255);
+    grid-column: span 2;
+}
+
+.item-pin-label {
+    margin-top: -3vw;
+    justify-content: left;
+    justify-self: left;
+    grid-column: span 2;
+    font-size: 1.3vw;
+}
+
+.item-pin-input {
+    margin-top: -4vw;
+    justify-content: left;
+    justify-self: left;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgba(173,173,173,255);
+    grid-column: span 2;
+}
+
+
+.item-state-label {
+    margin-top: -3vw;
+    justify-content: left;
+    justify-self: left;
+    grid-column: span 2;
+    font-size: 1.3vw;
+}
+
+.item-state-input {
+    margin-top: -3vw;
+    justify-content: left;
+    justify-self: left;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgba(173,173,173,255);
+    grid-column: span 2;
+}
+
+.item {
+    margin-top: 1vw;
+    grid-column: span 2;
+    justify-content: left;
+    justify-self: left;
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(177,151,89,255);
+    background-image:linear-gradient(rgba(242,226,184,255), rgba(237,191,61,255)) ;
+    cursor: pointer;
+}
+
+input[type="text"]{
+    height: 70%;
+    width: 100%;
+}
+
+input[type="email"] {
+    height: 70%;
+    width: 100%;
+}
+
+input[type="password"] {
+    height: 70%;
+    width: 100%;
+}
+
+input[type="number"] {
+    height: 70%;
+    width: 100%;
+}
+

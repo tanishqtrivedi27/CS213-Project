@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}  
+
+.main-search-content{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.sort{
+    grid-column: span 1;
+    border-right: 1px solid black;
+}
+
+.list-items{
+    grid-column: span 3;
+    margin-left: 2rem;
+}

@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+  padding:0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar{
+  display:grid;
+  grid-template-columns: repeat(8, 1fr);
+  color: black;
+  background-color: #8cdacf
+}
+  
+.nav-img {
+  vertical-align: middle;
+  height: 2.5rem;
+}
+    
+.grid-col-span-4{
+  grid-column: span 4;
+}
+  
+.grid-item-2{
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+  
+.big-font{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: black;
+}
+  
+.small-font{
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: black;
+}
+  
+form.example input[type=text] {
+  margin-top: 0.6rem;
+  margin-bottom: 0.3rem;
+  height: 2.03rem;
+  border: 1px solid #8cdacf;
+  border-right: none;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+  
+form.example .srch {
+  margin-top: 0.6rem;
+  margin-bottom: 0.3rem;
+  float: left;
+  height: 2.03rem;
+  width: 15%;
+  background: #efa74a;
+  color:black;
+  font-size: 17px;
+  border: 1px solid #8cdacf;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+  
+a:link, a:visited, a:hover, a:active{
+  text-decoration: none;
+  color:black;
+}
+

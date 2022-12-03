@@ -1,0 +1,24 @@
+.grid-container{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    width: 50%;   
+    gap: 20px;
+    padding: 3px;
+}
+.row{
+    border-style: solid;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: 65% 20% 15%;
+    width: 50%;
+    padding: 3px;
+}
+
+.column{
+    font-size: 20px;
+    padding: 5px;
+}

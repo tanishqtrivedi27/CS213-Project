@@ -1,0 +1,91 @@
+body {
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+input[type="email"] {
+    height: 70%;
+    width: 100%;
+}
+
+.item-email-label {
+    margin-top: 0vw;
+    justify-content: left;
+    justify-self: left;
+    grid-column: span 2;
+    font-size: 1.3vw;
+}
+
+.hello {
+    display: grid;
+    grid-template-columns: 20vw;
+    grid-template-rows: 0.8vw;
+    justify-items: left;
+}
+
+.hello1 {
+    margin-top: 0vw;
+    justify-content: left;
+    justify-self: left;
+    font-size: 2vw;
+}
+
+.item-email-input {
+    margin-top: -2vw;
+    justify-content: left;
+    justify-self: left;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgba(173,173,173,255);
+    grid-column: span 2;
+    font-size: 1.2vw;
+}
+
+.item {
+    margin-top: 0vw;
+    grid-column: span 2;
+    width: 100%;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(177,151,89,255);
+    height: 60%;
+    background-image:linear-gradient(rgba(242,226,184,255), rgba(237,191,61,255)) ;
+    /* font-weight: 600; */
+    font-size: 0.8vw;
+    cursor: pointer;
+}
+
+h2 {
+    margin-top: 4%;
+    margin-bottom: 2%;
+    font-size: 2vw;
+}
+
+h5 {
+    font-size: 1.5vw;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr) ;
+    align-items: center;
+    justify-items: center;
+    column-gap: 0px;
+    padding: 0 1.2vw 0 ;
+}
+
+form {
+    display: block;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgba(229,229,229,255) ;
+    width: 20%; 
+    height: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+}

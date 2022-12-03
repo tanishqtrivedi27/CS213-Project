@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+  padding:0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-cart-content{
+  display:grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.shop-cart{
+  grid-column: span 4;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.subtotal{
+  grid-column: span 2;
+  margin-left: 1.5rem;
+  margin-right: 2.5rem;
+}
+
+.Cart-Items{
+  margin: auto;
+  width: 90%;
+  height: 30%;
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkout{
+  color: black;
+  font-size: 1.0rem;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.signin2{
+  color: black;
+  background-color: orange;
+  font-size: 1.0rem;
+  padding: 8px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  text-align: center;
+}
