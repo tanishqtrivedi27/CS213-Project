@@ -1,4 +1,6 @@
-## CS213 Project : E-commerce website
+#CS213 Project : E-commerce website
+
+## To run the project follow the steps given below:
 
 
 1. Run localhost/create-db.php to create the required database `booklib`
